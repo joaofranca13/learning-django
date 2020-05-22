@@ -19,6 +19,7 @@ from boards import views
 
 urlpatterns = [
 
+    # this tells django when to serve the view
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
 ]
